@@ -128,11 +128,11 @@ def demonstrate(particles: List[Particle], function_number: int,
             particle_arrows2d[index].set_offsets(particle.position.T)
             particle_arrows2d[index].set_UVC(particle.next_velocity[0], particle.next_velocity[1])
 
-            particle_plots3d[index].set_data(particle.position[0], particle.position[1])
+            particle_plots3d[index].set_data([particle.position[0]], [particle.position[1]])
             particle_plots3d[index].set_3d_properties(f(particle.position))
 
         global_best_plot2d.set_offsets(Particle.global_best.reshape(1, -1))
-        global_best_plot3d.set_data(Particle.global_best[0], Particle.global_best[1])
+        global_best_plot3d.set_data([Particle.global_best[0]], [Particle.global_best[1]])
         global_best_plot3d.set_3d_properties(f(Particle.global_best))
 
         # Iterate the algorithm
