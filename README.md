@@ -1,5 +1,5 @@
 # Partilce Swarm Optimization demonstration
-### Two-dimensional and Single objective (finding minimum), with *Auto Hyperparameterization*
+### Two-dimensional input and Single objective (finding minimum), with *Auto Hyperparameterization*
 
 ![PSO Demo](https://github.com/Vandalious/PSO-demonstration/blob/main/src/LevyFunc-PSO.gif "PSO on Levy function")
 
