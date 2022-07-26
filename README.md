@@ -1,7 +1,7 @@
 # Partilce Swarm Optimization demonstration
 ### Two-dimensional input and Single objective (finding minimum), with *Auto Hyperparameterization*
 
-![PSO Demo](https://github.com/Vandalious/PSO-demonstration/blob/main/src/LevyFunc-PSO.gif "PSO on Levy function")
+![PSO Demo](https://github.com/Vandalious/PSO-demonstration/blob/main/example_demonstrations/README-demo.gif "PSO on Levy function")
 
 You may add your own functions as well, inside the `benchmark_functions.py` file. For that, you have to first define your function like a regular one, then you must insert the function attributes inside the dictionary, as this dictionary is what the other files use for getting the required information about the functions.
 
