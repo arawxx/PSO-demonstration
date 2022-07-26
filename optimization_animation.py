@@ -108,7 +108,7 @@ def demonstrate(particles: List[Particle], function_number: int,
         Particle.c1 = -3.6 * (t / iterations) + 4.0  # goes from 4.0 to 0.4
         Particle.c2 = 3.5 * (t / iterations) + 0.1  # goes from 0.1 to 3.6
 
-        sys.stdout.write(f'\riteration {t}: {Particle.global_best} ---- func. value: {f(Particle.global_best)}')
+        sys.stdout.write(f'\r[ITERATION {t}] best point so far: {Particle.global_best} and func. value: {f(Particle.global_best)}')
         sys.stdout.flush()
 
     # animation function
