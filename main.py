@@ -1,5 +1,5 @@
-from pso import Particle
-import optimization_animation
+from utils.pso import Particle
+import utils.optimization_animation as optimization_animation
 
 
 PARTICLES = 30  # number of particles
