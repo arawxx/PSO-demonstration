@@ -1,5 +1,5 @@
 import numpy as np
-from benchmark_functions import dictionary as function_dictionary
+from .benchmark_functions import dictionary as function_dictionary
 
 
 class Particle:

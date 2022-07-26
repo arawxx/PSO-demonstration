@@ -2,8 +2,8 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from benchmark_functions import dictionary as function_dictionary
-from pso import Particle
+from .benchmark_functions import dictionary as function_dictionary
+from .pso import Particle
 from typing import List
 
 
